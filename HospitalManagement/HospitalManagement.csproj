@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Adminstrator\**" />
+    <Compile Remove="Models\Employee Management\**" />
+    <Compile Remove="Models\Financial Accounting\**" />
+    <Compile Remove="Models\Laboratory Management\**" />
+    <Compile Remove="Models\Materials Management\**" />
+    <Compile Remove="Models\Operations Management\**" />
+    <Compile Remove="Models\Patient Management\**" />
+    <Content Remove="Models\Adminstrator\**" />
+    <Content Remove="Models\Employee Management\**" />
+    <Content Remove="Models\Financial Accounting\**" />
+    <Content Remove="Models\Laboratory Management\**" />
+    <Content Remove="Models\Materials Management\**" />
+    <Content Remove="Models\Operations Management\**" />
+    <Content Remove="Models\Patient Management\**" />
+    <EmbeddedResource Remove="Models\Adminstrator\**" />
+    <EmbeddedResource Remove="Models\Employee Management\**" />
+    <EmbeddedResource Remove="Models\Financial Accounting\**" />
+    <EmbeddedResource Remove="Models\Laboratory Management\**" />
+    <EmbeddedResource Remove="Models\Materials Management\**" />
+    <EmbeddedResource Remove="Models\Operations Management\**" />
+    <EmbeddedResource Remove="Models\Patient Management\**" />
+    <None Remove="Models\Adminstrator\**" />
+    <None Remove="Models\Employee Management\**" />
+    <None Remove="Models\Financial Accounting\**" />
+    <None Remove="Models\Laboratory Management\**" />
+    <None Remove="Models\Materials Management\**" />
+    <None Remove="Models\Operations Management\**" />
+    <None Remove="Models\Patient Management\**" />
+  </ItemGroup>
+
+</Project>
