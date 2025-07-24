@@ -1,0 +1,50 @@
+The main aim of developing this Complete Hospital Management System is to provide best software to Hospitals to provide end to end solution for various departments. We have divided the Complete application into 7 major modules, Those are listed below:
+
+1. Administrator
+2. Patient Management
+3. Materials Management
+4. Laboratory Management
+5. Employee Management
+6. Financial Accounting
+7. Operations Management
+
+Each Module is divided into Sub Modules:
+
+
+Administrator Module
+In This module only admin people entered through Password and able to change or update as well as assign the responsibility to anyone. This module is further sub-divided into Doctor Registration, Employee Registration, Appointment Scheduling, and Hospital Administration
+
+Doctor Registration:- In this sub-module all the information regarding the doctor are stored ex. Doctor ID, doctor name, highest qualification, specialization, as well as availability.
+
+Employee Registration: -In this sub-module all the information regarding the employee is stored. Ex. Employee ID, Employee name, Employee address, Employee joining date.
+
+Appointment Scheduling: – In this sub-module all the information regarding the appointment to the patient with the doctor are stored.
+
+Hospital Administration: – In this sub-module all the information regarding Hospital Details
+
+Patient Management:
+In this module, all the information regarding patient are stored. This module is divided into various sub-modules. Inpatient Registration, Out-Patient registration, Itemized Patient Billing, Electronic Medical Records/Clinical History, Online Registration.
+
+Materials Management
+This module contain information related to complaint, equipment, Assets, Stock & others items maintenance management and keeps track of AMC of the equipments and the services offered by the vendor / manufacturer. This module is sub-divided into General Store Management, Inventory Management, Pharmacy Management, Blood Bank Management.
+
+Laboratory Management
+The Laboratory module is a sophisticated computer data management system designed to handle a large amount of data quickly and efficiently for all Pathology Laboratory disciplines, Clinical Pathology, Microbiology, Hematology, Serology, Cytology, Radiology, Biochemistry, and Neurology.
+
+Employee Management
+In this module, all the information regarding Employee is soared. This module is divided into various sub-modules; Attendance Management, Payroll Management. The employee management system incorporates attendance for staff, calculation of working hours, and daily, weekly, monthly and yearly analysis. The application accommodates all aspects of scheduling by assigning and maintaining records about different shifts and duty timings, hacking for scheduling conflicts with patient’s schedule, physician schedules, equipment availability and room availability. The employee management system incorporates attendance for staff, calculation of working hours, and daily, weekly, monthly and yearly analysis. The application accommodates all aspects of scheduling by assigning and maintaining records about Different shifts and duty timings, checking for scheduling conflicts with patient’s schedule, physician schedules, equipment availability and room availability.
+
+Financial Accounting:
+• Cash Book
+• Bank Book
+• Ledger Book
+• Receipt/Payments
+• Journal Voucher
+• Insurance
+• Invoice
+• Purchase Orders
+• Records
+
+Operations Management:
+In this module, all the information regarding all the available OPD. This module is sub-divided into Housekeeping, Ward Management, Bed Management, Operation Theater, Manager Assistant, Doctors Workbench, and Nursing Workbench.
+
