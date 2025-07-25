@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagement.Models
@@ -43,6 +44,7 @@ namespace HospitalManagement.Models
     // Inpatient Registration
     public class InPatient
     {
+        [Key]
         public int PatientId { get; set; }
         public string PatientName { get; set; }
         public int Age { get; set; }
@@ -53,6 +55,7 @@ namespace HospitalManagement.Models
     // Outpatient Registration
     public class OutPatient
     {
+        [Key]
         public int PatientId { get; set; }
         public string PatientName { get; set; }
         public int Age { get; set; }
@@ -64,6 +67,7 @@ namespace HospitalManagement.Models
     // Itemized Patient Billing
     public class PatientBilling
     {
+        [Key]
         public int PatientId { get; set; }
         public string PatientName { get; set; }
         public decimal BillAmount { get; set; }
@@ -72,10 +76,11 @@ namespace HospitalManagement.Models
     // Electronic Medical Records / Clinical History
     public class ClinicalHistory
     {
+        [Key]
         public int PatientId { get; set; }
+
+        public string PatientName { get; set; }
         public DateTime VisitedDate { get; set; }
     }
-
-    
-    
+ 
 }
